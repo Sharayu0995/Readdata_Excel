@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-13T08:01:12Z" name="Default suite" finished-at="2020-04-13T08:01:12Z" duration-ms="646">
+    <groups>
+    </groups>
+    <test started-at="2020-04-13T08:01:12Z" name="Default test" finished-at="2020-04-13T08:01:12Z" duration-ms="646">
+      <class name="com.code.ReadExcel">
+        <test-method signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.ReadExcel@222114ba]" started-at="2020-04-13T08:01:12Z" name="test1" data-provider="readExcelFile" finished-at="2020-04-13T08:01:12Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaa@mailinator.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.code.ReadExcel@222114ba]" started-at="2020-04-13T08:01:12Z" name="test1" data-provider="readExcelFile" finished-at="2020-04-13T08:01:12Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bbb@mailinator.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.code.ReadExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
